@@ -1,0 +1,21 @@
+{
+  "name": "ioweyou",
+  "version": "1.0.0",
+  "description": "This is an IOU Discord bot to keep track of who paid for what using slash commands and cloud storage.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5",
+    "tsup": "^8.1.0",
+    "typescript": "^5.4.5"
+  }
+}
